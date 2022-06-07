@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: end;
+  background-color: #ffb901;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+
+  div {
+    text-align: center;
+    margin: 0rem 2rem;
+    p {
+      font-size: 14px;
+      margin-top: 0.5rem;
+      cursor: pointer;
+    }
+  }
+}
